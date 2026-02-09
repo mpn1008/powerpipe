@@ -1,4 +1,4 @@
-dashboard "lambda_function_inventory_report" {
+/*dashboard "lambda_function_inventory_report" {
 
   title         = "AWS Lambda Function Inventory Report"
   documentation = file("./dashboards/lambda/docs/lambda_function_report_inventory.md")
@@ -25,7 +25,7 @@ dashboard "lambda_function_inventory_report" {
     query = query.lambda_function_inventory_table
   }
 
-}
+}*/
 
 query "lambda_function_inventory_table" {
   sql = <<-EOQ

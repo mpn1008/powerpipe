@@ -1,4 +1,4 @@
-dashboard "lambda_function_public_access_report" {
+/*dashboard "lambda_function_public_access_report" {
 
   title         = "AWS Lambda Function Public Access Report"
   documentation = file("./dashboards/lambda/docs/lambda_function_report_public_access.md")
@@ -40,7 +40,7 @@ dashboard "lambda_function_public_access_report" {
     query = query.lambda_function_public_access_table
   }
 
-}
+}*/
 
 query "lambda_function_public_access_table" {
   sql = <<-EOQ

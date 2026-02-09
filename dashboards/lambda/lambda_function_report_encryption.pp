@@ -1,4 +1,4 @@
-dashboard "lambda_function_encryption_report" {
+/*dashboard "lambda_function_encryption_report" {
 
   title         = "AWS Lambda Function Encryption Report"
   documentation = file("./dashboards/lambda/docs/lambda_function_report_encryption.md")
@@ -39,7 +39,7 @@ dashboard "lambda_function_encryption_report" {
     query = query.lambda_function_encryption_table
   }
 
-}
+}*/
 
 query "lambda_function_encryption_table" {
   sql = <<-EOQ

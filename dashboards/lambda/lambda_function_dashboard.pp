@@ -1,4 +1,4 @@
-dashboard "lambda_function_dashboard" {
+/*dashboard "lambda_function_dashboard" {
 
   title         = "AWS Lambda Function Dashboard"
   documentation = file("./dashboards/lambda/docs/lambda_function_dashboard.md")
@@ -244,7 +244,7 @@ dashboard "lambda_function_dashboard" {
 
   }
 
-}
+}*/
 
 # Card Queries
 
