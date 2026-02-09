@@ -1,4 +1,4 @@
-dashboard "eventbridge_rule_detail" {
+/*dashboard "eventbridge_rule_detail" {
 
   title         = "AWS EventBridge Rule Detail"
   documentation = file("./dashboards/eventbridge/docs/eventbridge_rule_detail.md")
@@ -151,7 +151,7 @@ dashboard "eventbridge_rule_detail" {
       }
     }
   }
-}
+}*/
 
 # Input queries
 
