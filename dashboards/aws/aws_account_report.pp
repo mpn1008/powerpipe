@@ -1,4 +1,4 @@
-dashboard "account_report" {
+/*dashboard "account_report" {
 
   title         = "AWS Account Report"
   documentation = file("./dashboards/aws/docs/account_report.md")
@@ -25,7 +25,7 @@ dashboard "account_report" {
     query = query.account_table
   }
 
-}
+}*/
 
 query "account_count" {
   sql = <<-EOQ
