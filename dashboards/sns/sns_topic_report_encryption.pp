@@ -1,4 +1,4 @@
-dashboard "sns_topic_encryption_report" {
+/*dashboard "sns_topic_encryption_report" {
 
   title         = "AWS SNS Topic Encryption Report"
   documentation = file("./dashboards/sns/docs/sns_topic_report_encryption.md")
@@ -39,7 +39,7 @@ dashboard "sns_topic_encryption_report" {
     query = query.sns_topic_encryption_table
   }
 
-}
+}*/
 
 query "sns_topic_encryption_table" {
   sql = <<-EOQ

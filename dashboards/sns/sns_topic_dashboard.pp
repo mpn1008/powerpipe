@@ -1,4 +1,4 @@
-
+/*
 dashboard "sns_topic_dashboard" {
 
   title         = "AWS SNS Topic Dashboard"
@@ -117,7 +117,7 @@ dashboard "sns_topic_dashboard" {
 
   }
 
-}
+}*/
 
 # Card Queries
 

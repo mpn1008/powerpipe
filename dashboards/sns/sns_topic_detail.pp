@@ -1,4 +1,5 @@
-dashboard "sns_topic_detail" {
+
+/* dashboard "sns_topic_detail" {
 
   title         = "AWS SNS Topic Detail"
   documentation = file("./dashboards/sns/docs/sns_topic_detail.md")
@@ -255,7 +256,7 @@ dashboard "sns_topic_detail" {
     }
 
   }
-}
+} */
 
 query "sns_topic_input" {
   sql = <<-EOQ
